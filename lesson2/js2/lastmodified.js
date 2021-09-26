@@ -1,2 +1,2 @@
 document.getElementById("copyrightyear").textContent = new Date().getFullYear();
-document.getElementById("lastmodified").textContent = new Date(document.lastModified);
+document.getElementById("lastmodified2").textContent = new Date(document.lastModified);
