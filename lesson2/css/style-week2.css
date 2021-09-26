@@ -1,0 +1,39 @@
+body p {
+    font-size: 16px;
+    font-family: serif;
+}
+
+h1,h2 {
+    font-family: serif;
+    background-color: black;
+    color: white;
+}
+
+main h2 {
+    padding: 1rem;
+}
+
+header,
+footer {
+    margin: auto;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    background-color: black;
+}
+
+main {
+    max-width: 767px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section{
+    margin: 1e;
+    border: 2px solid;
+    padding: 1rem;
+
+}
+
+
