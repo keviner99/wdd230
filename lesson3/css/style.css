@@ -1,30 +1,44 @@
 body {
     max-width: 70em;
     margin: 0 auto;
+    font-size: 15px;
 }
 
+header {
+    background-color: rgb(9, 9, 68);
+    display: flex;
+    
+    align-items: center;
+    
+    padding: 10px;
+}
 
 header,
 footer {
-    background-color: rgb(9,9,68);
+    
     color: white;
     text-align: center;
 }
 
 main {
-    background-color:gray;
+    background-color:gainsboro;
 }
 
 nav {
     max-width: 100%;
     text-align: center;
-    background-color: rgb(9, 9, 68);
+    
 }
 
 nav a {
     color: white;
     padding: 1em 1em;
     text-decoration: none;
+}
+
+nav a:hover {
+    background-color: whitesmoke;
+    color:rgb(9, 9, 68)
 }
 
 nav ul {
@@ -36,4 +50,21 @@ nav ul {
 nav li {
     font-size: 15px;
     display: inline-block;
+}
+
+h1 {
+    color: black;
+}
+
+footer {
+    background-color: rgb(9, 9, 68);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
 }
