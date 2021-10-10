@@ -3,14 +3,6 @@ const mainMenu = document.querySelector('.navigation');
 
 hamButton.addEventListener('click', () =>{mainMenu.classList.toggle('responsive')}, false);
 
-window.onresize = () => {
-    if(window.innerWidth > 760){
-        mainMenu.classList.remove('responsive');
-    }
-}
+window.onresize = () => {if (window.innerWidth > 760) mainMenu.classList.remove('responsive')};
 
-var currentDate = new Date();
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-document.getElementById("outcome").innerHTML = days[currentDate.getDay()] + ", " + currentDate.getDate() + " " + months[currentDate.getMonth()] + " " + currentDate.getFullYear();
+document.getElementById("currentdate").innerHTML = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"long", day:"numeric"}) 
