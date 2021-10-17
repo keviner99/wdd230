@@ -98,7 +98,34 @@ main div {
 
 .icons {
     background-color: #63768D;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
+.article-image {
+    width: 400px;
+    height: 220px;
+}
+
+.map {
+    width: 323px;
+    height: 326;
+}
+
+.hero {
+    position: relative;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    padding: 0.5rem;
+    background: radial-gradient(#554971, #75abbcff);
+    margin-top: 10px;;
+    margin-bottom: -10px;
+}
+
 footer {
     background-color: #554971;
     color: white;
