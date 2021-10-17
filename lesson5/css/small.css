@@ -92,6 +92,13 @@ main div {
     margin: 15px;
 }
 
+.icon {
+    width: 100px;
+}
+
+.icons {
+    background-color: #63768D;
+}
 footer {
     background-color: #554971;
     color: white;
