@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer, main {
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+header, nav {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #554971;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.headings h1 {
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    padding: 1em;;
+}
+
+nav {
+    background-color: #63768D;
+}
+
+.navigation {
+    list-style: none;
+    background-color: #63768D;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav a:hover {
+    background-color:#8AC6D0;
+    color: #36213E;
+}
+
+.menuname {
+    background-color: #554971;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+}
+
+main div {
+    background-color: #B8F3FF;
+    padding: 15px;
+    margin: 15px;
+}
+
+footer {
+    background-color: #554971;
+    color: white;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
