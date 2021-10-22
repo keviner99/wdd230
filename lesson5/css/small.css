@@ -105,6 +105,7 @@ main div {
 .article-image {
     width: 400px;
     height: 220px;
+    float:right;
 }
 
 .map {
