@@ -76,6 +76,7 @@ nav a:hover {
     color: #36213E;
 }
 
+
 .menuname {
     background-color: #554971;
 }
@@ -134,4 +135,27 @@ footer {
     justify-items: center;
     justify-content: center;
     text-align: center;
+}
+
+p {
+    padding: .4em;
+    margin: .4em;
+}
+
+#friday-banner {
+    display: flex;
+    justify-content: center;
+}
+
+#friday-banner div.text-wrapper {
+    overflow: visible;
+    margin: auto;
+    background-color: blue;
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+}
+
+#friday-banner.visible {
+    display: block;
 }

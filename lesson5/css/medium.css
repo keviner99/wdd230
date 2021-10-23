@@ -46,10 +46,25 @@
 
     nav ul {
         flex-flow: row wrap;
+        margin-left: 2%;
     }
+
+    nav ul li {
+        float: left;
+        font-size: 0.8em;
+    }
+
+    .weathersummary{
+        position: absolute;
+        padding: 0.5em;
+    }
+
 
     footer p {
         font-size: 20px;
     }
 
+    footer {
+        display: flex;
+    }
 }
