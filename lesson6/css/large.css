@@ -14,4 +14,25 @@
     .navigation a {
         font-size: 20px;
     }
+
+
+    .hero-section {
+        display: grid;
+    }
+
+    .weather-summary {
+        opacity: 85%;
+        position: absolute;
+        margin-top: -600px;
+        margin-left: 15px;
+        width: 20em;
+        height: 13em;
+
+        padding: .25em;
+        background-color: azure;
+
+        border: 10px;
+
+        
+    }
 }
