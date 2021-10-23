@@ -140,6 +140,7 @@ footer {
 p {
     padding: .4em;
     margin: .4em;
+    display: block;
 }
 
 #friday-banner {
