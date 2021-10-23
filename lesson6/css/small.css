@@ -160,3 +160,8 @@ p {
 #friday-banner.visible {
     display: block;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
