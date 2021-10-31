@@ -31,8 +31,15 @@
         padding: .25em;
         background-color: azure;
 
-        border: 10px;
+        border: 10px;  
+    }
 
-        
+    .gallery-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallery-images:hover {
+        box-shadow: 0 0 50px black;
     }
 }
