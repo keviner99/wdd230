@@ -1,0 +1,20 @@
+html {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+#content {
+    max-width: 640px;
+    margin: auto;
+}
+
+img {
+    max-width: 300px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.drafting {
+    display: grid;
+    grid-template-columns: 1fr;
+}
