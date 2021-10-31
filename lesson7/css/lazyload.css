@@ -14,7 +14,16 @@ img {
     border-radius: 10px;
 }
 
-.drafting {
+.rafting {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.rafting img[data-src] {
+    filter: blur(0.2em);
+}
+
+.rafting img {
+    filter: blur(0em);
+    transition: filter 1.25s;
 }
