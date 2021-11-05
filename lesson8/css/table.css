@@ -1,0 +1,35 @@
+table {
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th {
+    font-family: Ubuntu, sans-serif;
+    padding: .5em;
+}
+
+#head, #goal {
+    background-color: #628ca6;
+}
+
+#header, #foot {
+    background-color: #7fb9c2;
+}
+
+tr:nth-child(even){
+    background-color: #e7f0ed;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+#head, #goal {
+    color: white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
