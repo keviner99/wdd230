@@ -10,48 +10,54 @@
 <body>
     <table>
         <thead>
-            <th id="header" colspan="3">ACME Wildwest</th>
+            <th scope="col" id="header" colspan="3">ACME Wildwest</th>
         </thead>
 
         <tbody>
             <tr id="head">
-                <th>Period</th>
-                <th>Sales</th>
-                <th>Sales Goal</th>
+                <th scope="col">Period</th>
+                <th scope="col">Sales</th>
+                <th scope="col">Sales Goal</th>
             </tr>
             
             <tr>
-                <th>August</th>
+                <th scope="row">August</th>
                 <th>$3,590</th>
-                <th>$4000</th>
+                <th>$4,000</th>
             </tr>
 
             <tr>
-                <th>October</th>
-                <th>$4420</th>
-                <th>$5000</th>
+                <th scope="row">September</th>
+                <th>$4,420</th>
+                <th>$5,000</th>
             </tr>
 
             <tr>
-                <th>November</th>
+                <th scope="row">October</th>
+                <th>$4,870</th>
+                <th>$5,000</th>
+            </tr>
+
+            <tr>
+                <th scope="row">November</th>
                 <th>$8,610</th>
                 <th id="goal">$7,500</th>
             </tr>
 
             <tr>
-                <th id="blackfriday"><i>Black Friday</i></th>
+                <th scope="row" id="blackfriday"><i>Black Friday</i></th>
                 <th colspan="2">$3,200</th>
             </tr>
 
             <tr>
-                <th>December</th>
+                <th scope="row">December</th>
                 <th>$6,820</th>
                 <th>$7,500</th>
             </tr>
             
         </tbody>
         <tfoot>
-            <th id="foot" colspan="3">Compiled 11.4.2021 by Kevin Espinoza</th>
+            <th id="foot" colspan="3">Compiled 12.20.2020 by Kevin Espinoza</th>
         </tfoot>
 
     </table>

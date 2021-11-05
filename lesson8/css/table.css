@@ -1,16 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
 table {
     background-color: gray;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px #628ca6;
+}
+
+#header {
+    font-size: 2em;
+}
+
+#head {
+    font-size: 1.25em;
 }
 
 table th {
-    font-family: Ubuntu, sans-serif;
+    font-family: "Ubuntu", sans-serif;
     padding: .5em;
 }
 
 #head, #goal {
     background-color: #628ca6;
+    color: white;
 }
 
 #header, #foot {
@@ -25,11 +39,9 @@ tr:nth-child(odd) {
     background-color: #e7ffed;
 }
 
-#head, #goal {
-    color: white;
-}
 
 table {
     margin-left: auto;
     margin-right: auto;
 }
+
