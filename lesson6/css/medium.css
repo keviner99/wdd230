@@ -99,4 +99,15 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
     }
+
+    textarea {
+        width: 600px;
+        padding: 0.5em;
+    }
+
+    form fieldset {
+        margin: auto;
+        display: flex;
+        
+    }
 }

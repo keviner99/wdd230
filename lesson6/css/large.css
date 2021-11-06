@@ -42,4 +42,11 @@
     .gallery-images:hover {
         box-shadow: 0 0 50px black;
     }
+
+    /*Storm Center*/
+
+    textarea {
+        margin: auto;
+        width: 1200px;
+    }
 }
