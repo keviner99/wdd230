@@ -245,7 +245,7 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: red solid3px;
+    border-left: red solid 3px;
     
 }
 
