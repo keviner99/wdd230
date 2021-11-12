@@ -49,4 +49,11 @@
         margin: auto;
         width: 1200px;
     }
+
+    /*HOME PAGE*/
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

@@ -270,3 +270,14 @@ textarea {
 
     padding: .25em;
 }
+
+/***HOME PAGE***/
+
+.cards {
+    background-color: #554971;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
