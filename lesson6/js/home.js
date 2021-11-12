@@ -11,9 +11,9 @@ fetch(requestURL)
     
     for (let i = 0; i < towns.length; i++) {
 
-        let card = document.createElement('div');
+        let card = document.createElement('section');
         let h1 = document.createElement('h1');
-        let motto = document.createElement('h3');
+        let motto = document.createElement('q');
         let yearfounded = document.createElement('p');
         let currentpopulation = document.createElement('p');
         let averagefainfall = document.createElement('p');
@@ -24,7 +24,7 @@ fetch(requestURL)
         motto.textContent = towns[i].motto;
         yearfounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
         currentpopulation.textContent = 'Population: ' + towns[i].currentPopulation;
-        averagefainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
+        averagefainfall.textContent = 'Annual Rain fall: ' + towns[i].averageRainfall;
         image.setAttribute('src', towns[i].photo);
 
         
