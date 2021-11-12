@@ -55,6 +55,7 @@ a:hover {
     border: solid 2px gray;
     background-color: #3751B8;
     max-width: 300px;
+    color: white;
 }
 
 .cards section img {
