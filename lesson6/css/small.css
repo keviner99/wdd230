@@ -305,6 +305,12 @@ h3 {
 /*HOME WIREFRAME*/
 .wireframes {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: auto;
+    align-items: center;
+    
+}
+
+.wireframes img {
+    width: 100%;
 }

@@ -26,7 +26,8 @@ fetch(requestURL)
         currentpopulation.textContent = 'Population: ' + towns[i].currentPopulation;
         averagefainfall.textContent = 'Annual Rain fall: ' + towns[i].averageRainfall;
         image.setAttribute('src', towns[i].photo);
-
+        /*photo.src = ''*/
+        /*photo.alt = ''*/
         
 
 

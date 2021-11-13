@@ -119,6 +119,13 @@
         
     }
 
+    /*HOME WIREFRAME*/
+    .wireframes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: auto;
+    }
+
     
 
     

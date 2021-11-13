@@ -56,4 +56,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    /*HOME WIREFRAME*/
+    .wireframes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: auto;
+        align-items: center;
+    }
 }
