@@ -7,10 +7,12 @@ fetch(requestURL)
     
   .then(function (jsonObject) {
     const towns = jsonObject['towns'];
-
+    const StormwatchBayTowns = ['Preston','Soda Springs','Fish Haven']
     
     for (let i = 0; i < towns.length; i++) {
 
+
+      if (StormwatchBayTowns.includes(towns[i].name)) {
         let card = document.createElement('section');
         let h1 = document.createElement('h1');
         let motto = document.createElement('q');
@@ -41,6 +43,7 @@ fetch(requestURL)
         card.appendChild(image);
         
         document.querySelector('div.cards').appendChild(card);
+      }
 
       }
   
