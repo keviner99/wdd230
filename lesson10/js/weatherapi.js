@@ -11,11 +11,11 @@ fetch(apiURL)
     
     
     
-    let imgsrc = 'https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png';
+    let imgesrc = 'https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png';
     let imgalt = jsObject.weather[0].description;
 
     currentTemp.textContent = jsObject.main.temp;
-    weathericon.setAttribute('src', imgsrc);
+    weathericon.setAttribute('src', imgesrc);
     weathericon.setAttribute('alt', imgalt);
 
 
