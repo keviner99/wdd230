@@ -7,16 +7,17 @@ fetch(apiURL)
     console.log(jsObject);
 
     const currentTemp = document.querySelector('#current-temp');
-    const weathericon = document.querySelector('#imagesrc')
     
     
     
-    let imgesrc = 'https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png';
-    let imgalt = jsObject.weather[0].description;
+    
+    const imagesrc = 'https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png';
+    
 
     currentTemp.textContent = jsObject.main.temp;
-    weathericon.setAttribute('src', imgesrc);
-    weathericon.setAttribute('alt', imgalt);
+    document.getElementById('imagesrc').textContent = imagesrc;
+    document.getElementById('icon').setAttribute('src', imagesrc);
+    document.getElementById('icon').setAttribute('alt', imagesrc);
 
 
   });

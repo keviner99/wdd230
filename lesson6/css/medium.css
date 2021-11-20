@@ -75,7 +75,7 @@
     .weather-summary {
         opacity: 85%;
         position: absolute;
-        margin-top: -300px;
+        margin-top: 96px;
         margin-left: 15px;
         width: 20em;
         height: 13em;
