@@ -63,4 +63,24 @@
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
+
+    /*PRESTON WEEK 10*/
+
+    .fiveday{
+        display: contents;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+
+    }
+
+    .weather-summary1 {
+        padding: .5em;
+        opacity: 85%;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 100px;
+
+    }
+
 }

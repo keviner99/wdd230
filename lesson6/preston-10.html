@@ -44,26 +44,51 @@
                 <img class="hero-image" src="images/wdd230_image_franklinOriginal.jpeg" alt="hero image ">
             </picture>
         </div>
-            <div class="weather-summary">
-                <h2>Weather Summary</h2>
-                <p><span id="dayofweek1"></span> : <span id="forecast1"></span>&deg; F</p>
-                <p><span id="dayofweek2"></span> : <span id="forecast2"></span>&deg; F</p>
-                <p><span id="dayofweek3"></span> : <span id="forecast3"></span>&deg; F</p>
-                <p><span id="dayofweek4"></span> : <span id="forecast4"></span>&deg; F</p>
-                <p><span id="dayofweek5"></span> : <span id="forecast5"></span>&deg; F</p>
+        <div class="weather-summary1">
+            <h2>Weather Summary</h2>
+                
+            <p>Currently: <span id="currently"></span></p>
+            <p>High: <span id="temp"></span> &deg;F</p>
+            <p>Windchill: <span id="windchill"></span> &deg;F</p>
+            <p>Humidity: <span id="humidity"></span> %</p>
+            <p>Wind speed: <span id="windspeed"></span> mph</p>
+                
 
                 
                 
-            </div>
-
-        <div class="fiveday">
-           <section>
-               <h2>5 Day Forecast</h2> 
-           </section>
-           <div class="icons">
-               
-           </div>
         </div>
+        <h2>5 day Forecast</h2>
+        <div class="fiveday">
+            
+            
+            <section>
+            <p><span id="day1"></span> : <span id="for1"></span>&deg; F </p>
+            <img src="" alt="" id="icon1" />
+            </section>
+
+            <section>
+            <p><span id="day2"></span> : <span id="for2"></span>&deg; F </p>
+            <img src="" alt="" id="icon2" />
+            </section>
+
+            <section>
+            <p><span id="day3"></span> : <span id="for3"></span>&deg; F </p>
+            <img src="" alt="" id="icon3" />
+            </section>
+
+            <section>
+            <p><span id="day4"></span> : <span id="for4"></span>&deg; F </p>
+            <img src="" alt="" id="icon4" />
+            </section>
+
+            <section>
+            <p><span id="day5"></span> : <span id="for5"></span>&deg; F </p>
+            <img src="" alt="" id="icon5" />
+            </section>
+               
+            
+        </div>
+
         <div class=article>
             <div class="article-1">
                 <img class="article-image" src="images/article1.jpg" alt="image of the sky for the article">
@@ -99,5 +124,6 @@
     <script src="js/rating.js"></script>
     <script src="js/home.js"></script>
     <script src="js/forecast.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
