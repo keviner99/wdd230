@@ -1,0 +1,132 @@
+@media only screen and (min-width: 40em) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    header img {
+        width: 128px;
+    }
+
+    .headings h1 {
+        font-size: 42px;
+    }
+
+    .moto {
+        font-size: 24px;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        flex: 1 1 auto;
+        display: block;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation a {
+        font-size: 18px;
+    }
+
+    nav ul {
+        flex-flow: row wrap;
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+        font-size: 0.8em;
+    }
+
+    .weathersummary{
+        position: absolute;
+        padding: 0.5em;
+    }
+
+
+    footer p {
+        font-size: 20px;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    .hero-section {
+        display: grid;
+    }
+
+    .weather-summary {
+        opacity: 85%;
+        position: absolute;
+        margin-top: 96px;
+        margin-left: 15px;
+        width: 20em;
+        height: 13em;
+
+        padding: .25em;
+        background-color: azure;
+
+        border: 10px;
+    }
+
+    footer {
+        display: grid;
+    }
+
+    body {
+        margin:auto;
+    }
+
+    .gallery-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    textarea {
+        width: 600px;
+        padding: 0.5em;
+    }
+
+    form fieldset {
+        margin: auto;
+        display: flex;
+        
+    }
+
+    /****HOME PAGE*****/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        
+    }
+
+    /*HOME WIREFRAME*/
+    .wireframes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    
+
+    
+}
