@@ -19,7 +19,7 @@ fetch(requestURL)
         let yearfounded = document.createElement('p');
         let currentpopulation = document.createElement('p');
         let averagefainfall = document.createElement('p');
-        let image = document.createElement('img');
+        
         
         
         h1.textContent = towns[i].name;
@@ -27,11 +27,15 @@ fetch(requestURL)
         yearfounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
         currentpopulation.textContent = 'Population: ' + towns[i].currentPopulation;
         averagefainfall.textContent = 'Annual Rain fall: ' + towns[i].averageRainfall;
-        image.setAttribute('src', towns[i].photo);
-        /*photo.src = ''*/
-        /*photo.alt = ''*/
         
+        let divImg = document.createElement('div');
+        divImg.className = "img-wrapper"
 
+
+        let photo = document.createElement('img');
+        photo.src = `images/towns/${towns[i].photo}`
+        photo.alt = `${towns[i].name}`
+        divImg.appendChild(photo)
 
 
 
@@ -40,7 +44,7 @@ fetch(requestURL)
         card.appendChild(yearfounded);
         card.appendChild(currentpopulation);
         card.appendChild(averagefainfall);
-        card.appendChild(image);
+        card.appendChild(divImg);
         
         document.querySelector('div.cards').appendChild(card);
       }
