@@ -45,7 +45,7 @@ fetch(requestURL)
         card.appendChild(yearfounded);
         card.appendChild(currentpopulation);
         card.appendChild(averagefainfall);
-        card.appendChild(divImg);
+        
         
         document.querySelector('div.cards').appendChild(card);
       }
