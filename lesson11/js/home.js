@@ -35,6 +35,7 @@ fetch(requestURL)
         let photo = document.createElement('img');
         photo.src = `images/towns/${towns[i].photo}`
         photo.alt = `${towns[i].name}`
+        photo.setAttribute("height", "300")
         divImg.appendChild(photo)
 
 
