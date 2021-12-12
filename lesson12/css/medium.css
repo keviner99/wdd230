@@ -1,0 +1,73 @@
+@media only screen and (min-width: 40em) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    body {
+        margin: auto;
+    }
+    p {
+        font-size: 16px;
+    }
+    header img {
+        width: 128px;
+    }
+    .headings h1 {
+        font-size: 42px;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        flex: 1 1 auto;
+        display: block;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation a {
+        font-size: 18px;
+    }
+    nav ul {
+        flex-flow: row wrap;
+        margin-left: 2%;
+    }
+    nav ul li {
+        float: left;
+        font-size: 0.8em;
+    }
+    footer {
+        display: grid;
+    }
+    footer p {
+        font-size: 20px;
+    }
+    .article {
+        display: grid;
+    }
+    .article-image {
+        width: 400px;
+        height: 220px;
+        float: right;
+    }
+    .weather-summary {
+        opacity: 85%;
+        position: absolute;
+        margin-top: 96px;
+        margin-left: 15px;
+        width: 20em;
+        height: 13em;
+        padding: .25em;
+        border: 10px;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+}
