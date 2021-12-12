@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+/*font-family: 'Poppins', sans-serif;*/
+
+
+/*font-family: 'Roboto',sans-serif;*/
+
+
+/* Color Palette
+dark purple: #141040;
+purple: #23366B;
+light purple: #5D7BB7;
+grey : #616E76;
+ligh : #B8C8CB;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer,
+main {
+    max-width: 80em;
+    margin: 0 auto;
+    color: white;
+}
+
+header,
+nav {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #23366B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.headings h1 {
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    padding: 1em;
+}
+
+nav {
+    background-color: #5d7bb7;
+}
+
+.navigation {
+    list-style: none;
+    background-color: #5d7bb7;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav a:hover {
+    background-color: #b8c8cb;
+    color: #141040;
+}
+
+.menuname {
+    background-color: #23366b;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+}
+
+main div {
+    background-color: #616e76;
+    padding: 15px;
+    margin: 15px;
+}
+
+.article {
+    display: grid;
+}
+
+.article-image {
+    width: 400px;
+    height: 220px;
+    float: right;
+}
+
+.weather-summary {
+    opacity: 85%;
+    position: absolute;
+    top: 220px;
+    bottom: 200px;
+    left: 50px;
+    padding: 0.5rem;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: white;
+}
+
+footer {
+    background-color: #141040;
+    color: white;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+p {
+    padding: .4em;
+    margin: .4em;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cards {
+    background-color: #5d7bb7;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.threeday {
+    display: contents;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
