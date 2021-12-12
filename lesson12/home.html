@@ -18,7 +18,7 @@
         
         <img src="images/logo.jpg" alt="KR Chamber logo">
         <section class="headings">
-            <h1>Weather Channel </h1>
+            <h1>KR CHAMBER </h1>
             
         </section>
     </header>
@@ -33,13 +33,37 @@
         </ul>
     </nav>
     <main>
-        <div id="main-content">
-            
-
-            
-
-                     
+        <h2>Home</h2>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 450px)" srcset="images/hero-images/small.jpg">
+                <source media="(max-width: 650px)" srcset="images/hero-images/medium.jpg">
+                <source media="(max-width: 950px)" srcset="images/hero-images/large.jpg">
+                <img class="hero-image" src="images/hero-images/banner1.jpg" alt="hero image">
+            </picture>
         </div>
+        <div class="weather-summary">
+            <h2>Weather Summary</h2>
+
+            <p>Currently: <span id="currently"></span></p>
+            <p>High: <span id="temp"></span> &deg;F</p>
+            <p>Humidity: <span id="humidity"></span> %</p>
+
+        </div>
+            
+        <div>
+            <div class="article">
+                <img class="article-image" src="images/article.jpg" alt="image for purpose article">
+                <h2>Our Purpose</h2>
+                <p>
+                    The purpose of this website is to promote local business and inform the events and attractions on the 
+                    town. We hope to help people find local business and participate on it
+                </p> 
+            </div>
+
+        </div>
+            
+                        
     </main>
     <footer>
         <div class="contact">
