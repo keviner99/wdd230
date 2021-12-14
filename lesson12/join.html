@@ -33,13 +33,32 @@
         </ul>
     </nav>
     <main>
-        <div id="main-content">
-            
+        
+        <h2 class="title">Membership Application</h2>
+            <div> 
+                <form method="get" action="">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label class="top">First Name*<input type="text" name="firstname" required></label>
+                        <label class="top">Last Name*<input type="text" name="lastname" required></label>
+                        <label class="top">Title<input type="text" name="title"></label>
+                        <label class="top">Email*<input type="email" name="email" required
+                        placeholder="yourenmail@gmail.com"></label><label class="top">First Name*<input type="text" name="firstname" required></label>
+                        <label class="top">Phone Number<input type="tel" name="phone"></label>
+                    </fieldset>
 
+                    <fieldset>
+                        <legend>Business Information</legend>
+                        <label class="top">Business Name*<input type="text" name="busname" required></label>
+                        <label class="top">Business Address<input type="text" name="busaddress"></label>
+                        <label class="top">Business Website<input type="text" name="buswebsite"></label>
+                        <label class="top" for="additional">Business Description</label>
+                        <textarea id="additional" rows="4" cols="40">
+                        </textarea>
+                    </fieldset>
             
-
-                     
-        </div>
+            </div>
+                        
     </main>
     <footer>
         <div class="contact">

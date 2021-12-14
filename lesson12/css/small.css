@@ -47,6 +47,10 @@ ligh : #B8C8CB;
             margin-left: 10px;
         }
         
+        legend {
+            color: white;
+        }
+        
         .headings h1 {
             color: white;
             font-size: 20px;

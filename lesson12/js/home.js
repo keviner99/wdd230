@@ -6,3 +6,12 @@ hamButton.addEventListener('click', () => { mainMenu.classList.toggle('responsiv
 window.onresize = () => { if (window.innerWidth > 760) mainMenu.classList.remove('responsive') };
 
 document.getElementById("currentdate").innerHTML = new Date().toLocaleDateString('en-us', { weekday: "long", year: "numeric", month: "long", day: "numeric" })
+
+const requestURL = 'https://keviner99.github.io/wdd230/lesson12/js/project.JSON';
+fetch(requestURL)
+    .then(function(response) {
+        return response.json();
+    }).then(function(jsonObject) {
+        const companies = jsonObject['companies'];
+        const homecompanies = ['Antojitos Lidia', 'Milly']
+    })
