@@ -13,5 +13,11 @@ fetch(requestURL)
         return response.json();
     }).then(function(jsonObject) {
         const companies = jsonObject['companies'];
-        const homecompanies = ['Antojitos Lidia', 'Milly']
+        const homecompanies = ['Antojitos Lidia', 'Milly', 'Dr. Cell']
+
+        for (let i = 0; i < companies.length; i++) {
+            if (homecompanies.includes(companies[i].name)) {
+                let card = document.createElement('section')
+            }
+        }
     })
