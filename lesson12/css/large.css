@@ -36,14 +36,14 @@
         }
         /*-----JOIN-------*/
         textarea {
-            margin: auto;
-            width: 400px;
+            width: 580px;
         }
         .personal {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
         }
         form fieldset {
+            margin: auto;
             display: grid;
             grid-template-columns: 1fr 1fr;
         }
