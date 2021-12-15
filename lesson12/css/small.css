@@ -1,226 +1,234 @@
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
-        /*font-family: 'Poppins', sans-serif;*/
-        /*font-family: 'Roboto',sans-serif;*/
-        
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        
-        footer,
-        main {
-            max-width: 80em;
-            margin: 0 auto;
-            color: white;
-        }
-        
-        .title {
-            color: black;
-        }
-        
-        header,
-        nav {
-            margin: 0 auto;
-        }
-        
-        header {
-            background-color: #23366B;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        header img {
-            width: 80px;
-            height: auto;
-        }
-        
-        .headings {
-            display: flex;
-            flex-direction: column;
-            margin-left: 10px;
-        }
-        
-        legend {
-            color: white;
-        }
-        
-        .headings h1 {
-            color: white;
-            font-size: 20px;
-            margin: 0px;
-            padding: 1em;
-        }
-        
-        nav {
-            background-color: #5d7bb7;
-        }
-        
-        .navigation {
-            list-style: none;
-            background-color: #5d7bb7;
-            margin: 0 auto;
-            padding: 0;
-            text-align: center;
-        }
-        
-        .navigation li:first-child {
-            display: block;
-        }
-        
-        .navigation li {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+    /*font-family: 'Poppins', sans-serif;*/
+    /*font-family: 'Roboto',sans-serif;*/
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    footer,
+    main {
+        max-width: 80em;
+        margin: 0 auto;
+        color: white;
+    }
+    
+    .title {
+        color: black;
+    }
+    
+    header,
+    nav {
+        margin: 0 auto;
+    }
+    
+    header {
+        background-color: #23366B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header img {
+        width: 80px;
+        height: auto;
+    }
+    
+    .headings {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    
+    legend {
+        color: white;
+    }
+    
+    .headings h1 {
+        color: white;
+        font-size: 20px;
+        margin: 0px;
+        padding: 1em;
+    }
+    
+    nav {
+        background-color: #5d7bb7;
+    }
+    
+    .navigation {
+        list-style: none;
+        background-color: #5d7bb7;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .navigation li:first-child {
+        display: block;
+    }
+    
+    .navigation li {
+        display: none;
+    }
+    
+    .navigation a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .responsive li {
+        display: block;
+    }
+    
+    nav a:hover {
+        background-color: #b8c8cb;
+        color: #141040;
+    }
+    
+    .menuname {
+        background-color: #23366b;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 14px;
+    }
+    
+    main div {
+        background-color: #616e76;
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    .article {
+        display: grid;
+    }
+    
+    .article-image {
+        width: 400px;
+        height: 220px;
+        float: right;
+    }
+    
+    .weather-summary {
+        margin-right: 40px;
+        margin-left: 40px;
+        color: white;
+        position: relative;
+    }
+    
+    footer {
+        background-color: #141040;
+        color: white;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    
+    p {
+        padding: .4em;
+        margin: .4em;
+        display: block;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .cards {
+        background-color: #141040;
+        text-align: center;
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+    }
+    
+    .cards section {
+        background-color: #5d7bb7;
+        text-align: center;
+    }
+    
+    .threeday {
+        display: contents;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+    
+    @media only screen and (min-width: 20em) {
+        .homecompany {
             display: none;
         }
-        
-        .navigation a {
-            display: block;
-            color: white;
-            text-decoration: none;
-            padding-top: 15px;
-            padding-bottom: 15px;
-        }
-        
-        .responsive li {
-            display: block;
-        }
-        
-        nav a:hover {
-            background-color: #b8c8cb;
-            color: #141040;
-        }
-        
-        .menuname {
-            background-color: #23366b;
-        }
-        
-        main {
-            display: flex;
-            flex-direction: column;
-            padding: 14px;
-        }
-        
-        main div {
-            background-color: #616e76;
-            padding: 15px;
-            margin: 15px;
-        }
-        
-        .article {
-            display: grid;
-        }
-        
-        .article-image {
-            width: 400px;
-            height: 220px;
-            float: right;
-        }
-        
-        .weather-summary {
-            margin-right: 40px;
-            margin-left: 40px;
-            color: white;
-            position: relative;
-        }
-        
-        footer {
-            background-color: #141040;
-            color: white;
-            display: grid;
-            justify-content: center;
-            justify-items: center;
-            text-align: center;
-        }
-        
-        p {
-            padding: .4em;
-            margin: .4em;
-            display: block;
-        }
-        
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        
-        .cards {
-            background-color: #141040;
-            text-align: center;
-            margin: 20px;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 25px;
-        }
-        
-        .cards section {
-            background-color: #5d7bb7;
-            text-align: center;
-        }
-        
-        .threeday {
-            display: contents;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            align-items: center;
-        }
-        
-        @media only screen and (min-width: 20em) {
-            .homecompany {
-                display: none;
-            }
-        }
-        /*---------JOIN --------*/
-        
-        form fieldset {
-            display: grid;
-            grid-template-columns: 1fr;
-            flex-direction: column;
-            border-radius: 10px;
-            padding: 1em;
-            background-color: #141040;
-            margin: auto;
-            border-color: #5d7bb7;
-        }
-        
-        form legend {
-            font-size: 1.5rem;
-            font-weight: 400;
-            max-width: 100%;
-            margin: 0 1rem;
-            padding: 0 0.5rem;
-        }
-        
-        form label top {
-            padding-top: 1rem;
-        }
-        
-        form label.top input,
-        form label.top select {
-            display: block;
-            border: solid 1px black;
-            padding: .4rem;
-            width: 100%;
-            max-width: 20rem;
-        }
-        
-        form input.submitBtn {
-            background-color: blue;
-            color: white;
-            border-radius: 1rem;
-            padding: .5em;
-            margin: 0 0 2rem 2%;
-            width: 96%;
-            font-size: 20px;
-            max-width: 20rem;
-        }
-        
-        form label.top input:required {
-            border-left: red solid 3px;
-        }
-        
-        form label.top input:required:valid {
-            border-left: green solid 3px;
-        }
-        
-        textarea {
-            margin: auto;
-            padding: .25em;
-        }
+    }
+    /*---------JOIN --------*/
+    
+    form fieldset {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 1em;
+        background-color: #141040;
+        margin: auto;
+        border-color: #5d7bb7;
+    }
+    
+    form legend {
+        font-size: 1.5rem;
+        font-weight: 400;
+        max-width: 100%;
+        margin: 0 1rem;
+        padding: 0 0.5rem;
+    }
+    
+    form label top {
+        padding-top: 1rem;
+    }
+    
+    form label.top input,
+    form label.top select {
+        display: block;
+        border: solid 1px black;
+        padding: .4rem;
+        width: 100%;
+        max-width: 20rem;
+    }
+    
+    form input.submitBtn {
+        background-color: blue;
+        color: white;
+        border-radius: 1rem;
+        padding: .5em;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        font-size: 20px;
+        max-width: 20rem;
+    }
+    
+    form label.top input:required {
+        border-left: red solid 3px;
+    }
+    
+    form label.top input:required:valid {
+        border-left: green solid 3px;
+    }
+    
+    textarea {
+        margin: auto;
+        padding: .25em;
+    }
