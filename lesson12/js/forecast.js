@@ -13,10 +13,10 @@ fetch(apiURL)
         const imagesrc3 = `http://openweathermap.org/img/wn/${jsObject.list[1].weather[0].icon}.png`;
         document.getElementById("icon3").setAttribute("src", imagesrc3);
 
-        const noon = jsObject.list.filter((x) => x.dt_txt.includes("12:00:00"));
+        const noon = jsObject.list.filter((x) => x.dt_txt.includes("18:00:00"));
         console.log(noon);
 
-        const weekdays = ["Sun", "Mon", "Tue"];
+        const weekdays = ["Wed", "Thu", "Fri", "Sat", "Sun", "Mon", "Tue"];
 
         let day = 0;
         noon.forEach((forecast) => {
