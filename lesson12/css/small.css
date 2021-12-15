@@ -1,13 +1,6 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
         /*font-family: 'Poppins', sans-serif;*/
         /*font-family: 'Roboto',sans-serif;*/
-        /* Color Palette
-dark purple: #141040;
-purple: #23366B;
-light purple: #5D7BB7;
-grey : #616E76;
-ligh : #B8C8CB;
-*/
         
         body {
             font-family: 'Roboto', sans-serif;
@@ -172,4 +165,10 @@ ligh : #B8C8CB;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             align-items: center;
+        }
+        
+        @media only screen and (min-width: 20em) {
+            .homecompany {
+                display: none;
+            }
         }
