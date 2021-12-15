@@ -17,7 +17,28 @@ fetch(requestURL)
 
         for (let i = 0; i < companies.length; i++) {
             if (homecompanies.includes(companies[i].name)) {
-                let card = document.createElement('section')
+                let card = document.createElement('section');
+                let h1 = document.createElement('h1');
+                let motto = document.createElement('q');
+                let yearfounded = document.createElement('p');
+
+                h1.textContent = companies[i].name;
+                motto.textContent = companies[i].motto;
+                yearfounded.textContent = 'Year Founded: ' + companies[i].yearFounded;
+
+                let divImg = document.createElement('div');
+                divImg.className = "img-wrapper";
+
+                let photo = document.createElement('img');
+                photo.src = `images/companies/${companies[i].photo}`;
+                photo.alt = `${companies[i].name}`;
+                divImg.appendChild(photo);
+
+                card.appendChild(h1);
+                card.appendChild(motto);
+                card.appendChild(yearfounded);
+
+                document.querySelector('div.cards').appendChild(card);
             }
         }
     })
