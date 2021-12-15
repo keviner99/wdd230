@@ -232,3 +232,30 @@
         margin: auto;
         padding: .25em;
     }
+    /*----CONTACT----*/
+    
+    .contact-page {
+        display: grid;
+    }
+    
+    .contact-page li {
+        font-size: 1.25em;
+        list-style-type: none;
+        padding: 0.5em;
+    }
+    
+    .contact-page textarea {
+        resize: none;
+        height: 7em;
+        width: 20em;
+    }
+    
+    .map iframe {
+        display: block;
+        margin: 15px auto;
+        width: 100%;
+    }
+    
+    .board {
+        list-style-type: none;
+    }
