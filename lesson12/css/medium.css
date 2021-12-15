@@ -58,19 +58,16 @@
     .weather-summary {
         opacity: 85%;
         position: absolute;
-        margin-top: 96px;
-        margin-left: 15px;
+        margin-top: 130px;
+        margin-left: 50px;
         width: 20em;
         height: 13em;
-        padding: .25em;
+        padding: .5em;
         border: 10px;
     }
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin: auto;
-    }
-    .homecompany {
-        display: none;
     }
 }
