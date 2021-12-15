@@ -37,7 +37,7 @@
         <h2 class="title">Membership Application</h2>
             <div> 
                 <form method="get" action="">
-                    <fieldset>
+                    <fieldset class="personal">
                         <legend>Personal Information</legend>
                         <label class="top">First Name*<input type="text" name="firstname" required></label>
                         <label class="top">Last Name*<input type="text" name="lastname" required></label>
@@ -47,7 +47,7 @@
                         <label class="top">Phone Number<input type="tel" name="phone"></label>
                     </fieldset>
 
-                    <fieldset>
+                    <fieldset >
                         <legend>Business Information</legend>
                         <label class="top">Business Name*<input type="text" name="busname" required></label>
                         <label class="top">Business Address<input type="text" name="busaddress"></label>
@@ -61,13 +61,21 @@
                             <option value="gold">Gold ($1000)</option>
             
                         </label>
-                        <label class="top" for="description">Business Description: </label>
-                        <textarea id="additional" rows="4" cols="40">
-                        </textarea>
-                    </fieldset>
-            
-            </div>
                         
+                    </fieldset>
+
+                    <fieldset>
+                        <label class="top" for="description">Business Description: 
+                        <textarea id="additional" rows="4" cols="40">
+                        </textarea> </label>
+                    </fieldset>
+
+                
+                    <input class="submitBtn" type="submit" value="submit">
+                    
+                </form>
+            
+            </div>                   
     </main>
     <footer>
         <div class="contact">

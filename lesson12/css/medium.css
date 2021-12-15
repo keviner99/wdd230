@@ -70,4 +70,13 @@
         grid-template-columns: 1fr 1fr 1fr;
         margin: auto;
     }
+    /*-----JOIN-------*/
+    textarea {
+        width: 800px;
+        padding: 0.5em;
+    }
+    form fieldset {
+        margin: auto;
+        display: flex;
+    }
 }

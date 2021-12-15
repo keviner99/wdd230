@@ -1,37 +1,50 @@
-@media only screen and (min-width: 60em) {
-    h1 {
-        font-size: 40px;
+    @media only screen and (min-width: 60em) {
+        h1 {
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        .nagivation a {
+            font-size: 20px;
+        }
+        .weather-summary1 {
+            padding: .5em;
+            opacity: 85%;
+            border-radius: 10px;
+            position: absolute;
+            margin-top: 100px;
+        }
+        .threeday {
+            display: contents;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .homecompany {
+            display: grid;
+        }
+        /*-----JOIN-------*/
+        textarea {
+            margin: auto;
+            width: 400px;
+        }
+        .personal {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        form fieldset {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
     }
-    h2 {
-        font-size: 30px;
-    }
-    h3 {
-        font-size: 25px;
-    }
-    h4 {
-        font-size: 20px;
-    }
-    .nagivation a {
-        font-size: 20px;
-    }
-    .weather-summary1 {
-        padding: .5em;
-        opacity: 85%;
-        border-radius: 10px;
-        position: absolute;
-        margin-top: 100px;
-    }
-    .threeday {
-        display: contents;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
-    }
-    .cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .homecompany {
-        display: grid;
-    }
-}
