@@ -17,6 +17,13 @@
         .nagivation a {
             font-size: 20px;
         }
+        #weather-alert {
+            margin: auto;
+            font-size: 20px;
+            bottom: 400px;
+            width: 64em;
+            height: auto;
+        }
         .weather-summary {
             padding: .5em;
             opacity: 85%;

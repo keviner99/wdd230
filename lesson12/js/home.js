@@ -6,7 +6,7 @@ hamButton.addEventListener('click', () => { mainMenu.classList.toggle('responsiv
 window.onresize = () => { if (window.innerWidth > 760) mainMenu.classList.remove('responsive') };
 
 document.getElementById("currentdate").innerHTML = new Date().toLocaleDateString('en-us', { weekday: "long", year: "numeric", month: "long", day: "numeric" })
-
+    /*companies from the home page*/
 const requestURL = 'https://keviner99.github.io/wdd230/lesson12/js/project.JSON';
 fetch(requestURL)
     .then(function(response) {
@@ -42,3 +42,11 @@ fetch(requestURL)
             }
         }
     })
+
+const WeatherAlertElement = document.getElementById("weather-alert")
+
+const hide_weather_alert = () => {
+    WeatherAlertElement.classList.add("hidden");
+}
+
+document.getElementById('weather-alert-close').addEventListener("click", hide_weather_alert);

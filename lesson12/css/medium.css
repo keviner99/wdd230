@@ -55,6 +55,13 @@
             height: 220px;
             float: right;
         }
+        #weather-alert {
+            margin: auto;
+            font-size: 20px;
+            bottom: 375px;
+            width: 42em;
+            height: auto;
+        }
         .weather-summary {
             opacity: 85%;
             position: absolute;
