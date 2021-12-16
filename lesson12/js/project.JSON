@@ -2,6 +2,7 @@
     "companies": [{
             "name": "Antojitos Lidia",
             "photo": "ceviche.jpg",
+            "logo": "antojitos.png",
             "motto": "Good, Delicious and Cheap.",
             "website": "https://www.facebook.com/Antojitos-Lidia-101167452268860",
             "yearFounded": 2020
@@ -10,6 +11,7 @@
         {
             "name": "Milly",
             "photo": "broaster.jpg",
+            "logo": "milly.png",
             "motto": "Where everyone is lifted.",
             "yearFounded": 2016
 
@@ -17,6 +19,7 @@
         {
             "name": "Dr. Cell",
             "photo": "cellphone.jpg",
+            "logo": "drcell.png",
             "motto": "The best doctor for your cellphone.",
             "website": "https://www.facebook.com/Dr.cellcelulares/?ref=page_internal",
             "yearFounded": 2014
@@ -25,6 +28,7 @@
         {
             "name": "Fisiocelz",
             "photo": "fisio.jpg",
+            "logo": "fisio.png",
             "motto": "Safe rehabilitation.",
             "website": "https://www.facebook.com/fisiocelz.rehabilitacionsegura"
 
@@ -33,6 +37,7 @@
         {
             "name": "Lapicerologo",
             "photo": "lapicero.jpg",
+            "logo": "lapicero.png",
             "motto": "The doctor in his ink",
             "website": "https://www.facebook.com/lapicerologodr/"
 
@@ -41,6 +46,7 @@
         {
             "name": "Fantech",
             "photo": "fantech.jpg",
+            "logo": "fantech.png",
             "website": "https://www.facebook.com/Fantech-106035001107201"
 
 
@@ -48,6 +54,7 @@
         {
             "name": "Keeping Joy",
             "photo": "keeping.jpg",
+            "logo": "keeping.png",
             "website": "https://www.facebook.com/keepingjoystore"
 
 
