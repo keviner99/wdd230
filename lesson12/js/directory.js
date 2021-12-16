@@ -16,29 +16,24 @@ const fetchCards = () => {
             for (let i = 0; i < companies.length; i++) {
 
                 let card = document.createElement('section');
-
                 let div = document.createElement('div')
-
                 let h2 = document.createElement('h2');
+
                 h2.textContent = `${companies[i].name}`;
-                div.appendChild(h2);
 
                 let website = document.createElement('p');
                 website.innerHTML = `<a href="${companies[i].website}">Website</a>`;
-                div.appendChild(website);
 
-                card.appendChild(div);
-
-                // image
                 let photo = document.createElement('img');
-                photo.src = `images/companies/directory/${companies[i].logo}`;
+                photo.src = `images/complogos/${companies[i].logo}`;
                 photo.alt = `${companies[i].name} Logo`
                 photo.height = '300'
                 photo.width = '300'
 
+                div.appendChild(h2);
+                div.appendChild(website);
+                card.appendChild(div);
                 card.appendChild(photo);
-
-                // add card to div
                 CardsDiv.appendChild(card);
 
             }
