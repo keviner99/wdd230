@@ -1,87 +1,105 @@
-@media only screen and (min-width: 40em) {
-    h1 {
-        font-size: 30px;
+    @media only screen and (min-width: 40em) {
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        body {
+            margin: auto;
+        }
+        p {
+            font-size: 20px;
+        }
+        header img {
+            width: 128px;
+        }
+        .headings h1 {
+            font-size: 42px;
+        }
+        .navigation {
+            display: flex;
+        }
+        .navigation li {
+            flex: 1 1 auto;
+            display: block;
+        }
+        .navigation li:first-child {
+            display: none;
+        }
+        .navigation a {
+            font-size: 18px;
+        }
+        nav ul {
+            flex-flow: row wrap;
+            margin-left: 2%;
+        }
+        nav ul li {
+            float: left;
+            font-size: 0.8em;
+        }
+        footer {
+            display: grid;
+        }
+        footer p {
+            font-size: 20px;
+        }
+        .article {
+            display: grid;
+        }
+        .article-image {
+            width: 400px;
+            height: 220px;
+            float: right;
+        }
+        .weather-summary {
+            opacity: 85%;
+            position: absolute;
+            margin-top: 130px;
+            margin-left: 50px;
+            width: 20em;
+            height: 13em;
+            padding: .5em;
+            border: 10px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: auto;
+        }
+        li {
+            font-size: 1.35em;
+        }
+        /*-----JOIN-------*/
+        textarea {
+            width: 800px;
+            padding: 0.5em;
+        }
+        .personal {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        form fieldset {
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        /*---CONTACT---*/
+        .contact-page {
+            display: grid;
+        }
+        .contact-page li {
+            font-size: 1.35em;
+        }
+        .contact-page textarea {
+            width: 25em;
+            height: 6em;
+        }
+        fieldset .contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
     }
-    h2 {
-        font-size: 25px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    body {
-        margin: auto;
-    }
-    p {
-        font-size: 16px;
-    }
-    header img {
-        width: 128px;
-    }
-    .headings h1 {
-        font-size: 42px;
-    }
-    .navigation {
-        display: flex;
-    }
-    .navigation li {
-        flex: 1 1 auto;
-        display: block;
-    }
-    .navigation li:first-child {
-        display: none;
-    }
-    .navigation a {
-        font-size: 18px;
-    }
-    nav ul {
-        flex-flow: row wrap;
-        margin-left: 2%;
-    }
-    nav ul li {
-        float: left;
-        font-size: 0.8em;
-    }
-    footer {
-        display: grid;
-    }
-    footer p {
-        font-size: 20px;
-    }
-    .article {
-        display: grid;
-    }
-    .article-image {
-        width: 400px;
-        height: 220px;
-        float: right;
-    }
-    .weather-summary {
-        opacity: 85%;
-        position: absolute;
-        margin-top: 130px;
-        margin-left: 50px;
-        width: 20em;
-        height: 13em;
-        padding: .5em;
-        border: 10px;
-    }
-    .cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: auto;
-    }
-    /*-----JOIN-------*/
-    textarea {
-        width: 800px;
-        padding: 0.5em;
-    }
-    .personal {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    form fieldset {
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}

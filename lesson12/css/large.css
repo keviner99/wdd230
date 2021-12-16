@@ -3,7 +3,7 @@
             font-size: 40px;
         }
         h2 {
-            font-size: 30px;
+            font-size: 35px;
         }
         h3 {
             font-size: 25px;
@@ -11,15 +11,19 @@
         h4 {
             font-size: 20px;
         }
+        p {
+            font-size: 25px;
+        }
         .nagivation a {
             font-size: 20px;
         }
-        .weather-summary1 {
+        .weather-summary {
             padding: .5em;
             opacity: 85%;
             border-radius: 10px;
             position: absolute;
-            margin-top: 100px;
+            margin-top: 150px;
+            height: 17em;
         }
         .threeday {
             display: contents;
@@ -46,5 +50,23 @@
             margin: auto;
             display: grid;
             grid-template-columns: 1fr 1fr;
+        }
+        .join legend {
+            font-size: 35px;
+        }
+        /*--CONTACT--*/
+        fieldset .contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .contact-page textarea {
+            width: 20em;
+            height: 5em;
+        }
+        label {
+            font-size: 28px;
+        }
+        .contact legend {
+            font-size: 35px;
         }
     }
