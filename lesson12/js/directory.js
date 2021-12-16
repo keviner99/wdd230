@@ -22,7 +22,7 @@ const fetchCards = () => {
                 h2.textContent = `${companies[i].name}`;
 
                 let website = document.createElement('p');
-                website.innerHTML = `<a href="${companies[i].website}">Website</a>`;
+                website.innerHTML = `<a href="${companies[i].website}">Facebook Website</a>`;
 
                 let photo = document.createElement('img');
                 photo.src = `images/complogos/${companies[i].logo}`;
