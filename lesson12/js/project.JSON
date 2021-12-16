@@ -3,6 +3,7 @@
             "name": "Antojitos Lidia",
             "photo": "ceviche.jpg",
             "motto": "Good, Delicious and Cheap.",
+            "website": "https://www.facebook.com/Antojitos-Lidia-101167452268860",
             "yearFounded": 2020
 
         },
@@ -17,9 +18,41 @@
             "name": "Dr. Cell",
             "photo": "cellphone.jpg",
             "motto": "The best doctor for your cellphone.",
+            "website": "https://www.facebook.com/Dr.cellcelulares/?ref=page_internal",
             "yearFounded": 2014
 
+        },
+        {
+            "name": "Fisiocelz",
+            "photo": "fisio.jpg",
+            "motto": "Safe rehabilitation.",
+            "website": "https://www.facebook.com/fisiocelz.rehabilitacionsegura"
+
+
+        },
+        {
+            "name": "Lapicerologo",
+            "photo": "lapicero.jpg",
+            "motto": "The doctor in his ink",
+            "website": "https://www.facebook.com/lapicerologodr/"
+
+
+        },
+        {
+            "name": "Fantech",
+            "photo": "fantech.jpg",
+            "website": "https://www.facebook.com/Fantech-106035001107201"
+
+
+        },
+        {
+            "name": "Keeping Joy",
+            "photo": "keeping.jpg",
+            "website": "https://www.facebook.com/keepingjoystore"
+
+
         }
+
 
 
 
