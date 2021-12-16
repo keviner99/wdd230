@@ -27,8 +27,8 @@ const fetchCards = () => {
                 let photo = document.createElement('img');
                 photo.src = `images/complogos/${companies[i].logo}`;
                 photo.alt = `${companies[i].name} Logo`
-                photo.height = '300'
-                photo.width = '300'
+                photo.height = '200'
+                photo.width = '200'
 
                 div.appendChild(h2);
                 div.appendChild(website);

@@ -109,4 +109,12 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
         }
+        /*-----DIRECTORY-----*/
+        #directory-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        #directory-cards h2 {
+            text-align: center;
+        }
     }
